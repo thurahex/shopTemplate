@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://kit.fontawesome.com/a17a89c931.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&family=Rubik:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="font-Rubik">
+
+
+  <!-- <header class="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+          <div class="flex items-center justify-between">
+            <a class="flex-none text-xl font-semibold dark:text-white" href="#">Brand</a>
+            <div class="sm:hidden">
+              <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-with-mega-menu" aria-controls="navbar-with-mega-menu" aria-label="Toggle navigation">
+                <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div id="navbar-with-mega-menu" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+            <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
+              <a class="font-medium text-blue-500" href="#" aria-current="page">Landing</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Account</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Work</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Blog</a>
+              <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none]">
+                <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full text-gray-600 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 ">
+                  Dropdown
+                  <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                  </svg>
+                </button>
+      
+                <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 z-10 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 hidden" style="">
+                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
+                    About
+                  </a>
+                  <div class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
+                    <button type="button" class="w-full flex justify-between items-center text-sm text-gray-800 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300">
+                      Sub Menu
+                      <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                      </svg>
+                    </button>
+      
+                    <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-2 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
+                      <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
+                        About
+                      </a>
+                      <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
+                        Downloads
+                      </a>
+                      <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
+                        Team Account
+                      </a>
+                    </div>
+                  </div>
+      
+                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
+                    Downloads
+                  </a>
+                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
+                    Team Account
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header> -->
+  <!-- Main navigation container -->
+  <div class="w-full relative top-[-600px] left-0 nav-bar transition-all duration-500">
+
+    <div class="absolute h-[400px] top-0 left-0 z-50 bg-white w-full">
+      <!-- <header></header> -->
+      <div class="flex w-full py-2 justify-between shadow-sm shadow-slate-200 mb-5">
+        <h1 class="px-2 py-2 font-bold ">Shopy</h1>
+        <div class="px-2 py-2 close-nav-btn ">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="flex  px-5">
+        <input type="search"
+          class="relative m-0 block w-[1px] min-w-0 flex-auto rounded border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none motion-reduce:transition-none dark:border-neutral-500 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
+          placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
+
+        <!--Search icon-->
+        <span
+          class="input-group-text flex items-center whitespace-nowrap rounded px-3 py-1.5 text-center text-base font-normal text-neutral-700 dark:text-neutral-200"
+          id="basic-addon2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+            <path fill-rule="evenodd"
+              d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+              clip-rule="evenodd" />
+          </svg>
+        </span>
+      </div class="w-full px-5">
+      <ul class="flex flex-col px-5 gap-y-3 mt-3">
+        <li class="py-2 rounded-md px-3 bg-slate-100 font-bold opacity-80">Dashboard</li>
+        <li class="py-2 rounded-md px-3 bg-slate-100 font-bold opacity-80">Shop</li>
+
+        <li class="py-2 rounded-md px-3 bg-slate-100 font-bold opacity-80">Summer</li>
+        <li class="py-2 rounded-md px-3 bg-slate-100 font-bold opacity-80">Login</li>
+
+
+
+      </ul>
+    </div>
+  </div>
+  <nav
+    class="flex-no-wrap  z-40 flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
+    <div class="flex w-full flex-wrap items-center justify-between px-3">
+      <!-- Hamburger button for mobile view -->
+      <button
+        class=" transition-all nav-btn  block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+        type="button" data-te-collapse-init data-te-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Hamburger icon -->
+        <span class="[&>svg]:w-7">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+            <path fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd" />
+          </svg>
+        </span>
+      </button>
+      <!-- hiden side bar  -->
+
+
+      <!-- Collapsible navigation container -->
+      <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
+        id="navbarSupportedContent1" data-te-collapse-item>
+        <!-- Logo -->
+        <a class="mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
+          href="#">
+          <img src="https://tecdn.b-cdn.net/img/logo/te-transparent-noshadows.webp" style="height: 15px" alt="TE Logo"
+            loading="lazy" />
+        </a>
+        <!-- Left navigation links -->
+        <ul class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row" data-te-navbar-nav-ref>
+          <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <!-- Dashboard link -->
+            <a class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+              href="#" data-te-nav-link-ref>Electronics
+
+          </li>
+          <!-- Team link -->
+          <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <a class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>Fashion</a>
+          </li>
+          <!-- Projects link -->
+          <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <a class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>Promotions</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ml-5 hidden  sm:flex w-[30%] items-center justify-between">
+        <input type="search"
+          class="relative m-0 block w-[1px] min-w-0 flex-auto rounded border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none motion-reduce:transition-none dark:border-neutral-500 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
+          placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
+
+        <!--Search icon-->
+        <span
+          class="input-group-text flex items-center whitespace-nowrap rounded px-3 py-1.5 text-center text-base font-normal text-neutral-700 dark:text-neutral-200"
+          id="basic-addon2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+            <path fill-rule="evenodd"
+              d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+              clip-rule="evenodd" />
+          </svg>
+        </span>
+      </div>
+
+      <!-- Right elements -->
+      <div class="relative flex items-center">
+        <!-- Cart Icon -->
+        <a class="mr-4 text-neutral-600 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+          href="#">
+          <span class="[&>svg]:w-5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
+              <path
+                d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+            </svg>
+          </span>
+        </a>
+
+        <!-- Container with two dropdown menus -->
+        <div class="relative" data-te-dropdown-ref data-te-dropdown-alignment="end">
+          <!-- First dropdown trigger -->
+          <a class="hidden-arrow mr-4 flex items-center text-neutral-600 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+            href="#" id="dropdownMenuButton1" role="button" data-te-dropdown-toggle-ref aria-expanded="false">
+            <!-- Dropdown trigger icon -->
+            <span class="[&>svg]:w-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
+                <path fill-rule="evenodd"
+                  d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z"
+                  clip-rule="evenodd" />
+              </svg>
+            </span>
+            <!-- Notification counter -->
+            <span
+              class="absolute -mt-4 ml-2.5 rounded-full bg-danger px-[0.35em] py-[0.15em] text-[0.6rem] font-bold leading-none text-white">1</span>
+          </a>
+          <!-- First dropdown menu -->
+          <ul
+            class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+            aria-labelledby="dropdownMenuButton1" data-te-dropdown-menu-ref>
+            <!-- First dropdown menu items -->
+            <li>
+              <a class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
+                href="#" data-te-dropdown-item-ref>Action</a>
+            </li>
+            <li>
+              <a class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
+                href="#" data-te-dropdown-item-ref>Another action</a>
+            </li>
+            <li>
+              <a class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
+                href="#" data-te-dropdown-item-ref>Something else here</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Second dropdown container -->
+        <div class="relative" data-te-dropdown-ref data-te-dropdown-alignment="end">
+          <!-- Second dropdown trigger -->
+          <a class="hidden-arrow flex items-center whitespace-nowrap transition duration-150 ease-in-out motion-reduce:transition-none"
+            href="#" id="dropdownMenuButton2" role="button" data-te-dropdown-toggle-ref aria-expanded="false">
+            <!-- User avatar -->
+            <img src="https://tecdn.b-cdn.net/img/new/avatars/2.jpg" class="rounded-full"
+              style="height: 25px; width: 25px" alt="" loading="lazy" />
+          </a>
+          <!-- Second dropdown menu -->
+          <ul
+            class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+            aria-labelledby="dropdownMenuButton2" data-te-dropdown-menu-ref>
+            <!-- Second dropdown menu items -->
+            <li>
+              <a class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
+                href="#" data-te-dropdown-item-ref>Action</a>
+            </li>
+            <li>
+              <a class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
+                href="#" data-te-dropdown-item-ref>Another action</a>
+            </li>
+            <li>
+              <a class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
+                href="#" data-te-dropdown-item-ref>Something else here</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="h-screen max-w-[1500px] mx-auto">
+    <div class="mySlides fade bg-[#f5b1b0] h-full ">
+      <div class="flex w-full h-full flex-col-reverse sm:flex-row ">
+        <div class="lg:w-1/2 flex items-center sm:w-full lg:h-full sm:h-auto">
+
+          <div class="w-full lg:ml-[100px] ml-5 lg:my-auto pt-[60px] pb-10 lg:pt-0 lg:pb-0 text-center  lg:text-left">
+            <h2 class="text-white font-light lg:text-[35px] sm:text-[15px] animate__animated animate__fadeInDown">Hurry
+              up! Limited time offers.</h2>
+            <h1
+              class="text-white text-bold lg:text-[50px] text-[20px]  animate__animated animate__fadeInDown animate__delay-1s">
+              Women Sportswae Sale</h1>
+            <p
+              class="text-white lg:text-[15px] text-[14px] opacity-80  animate__animated animate__fadeInDown animate__delay-1s">
+              Sneakers, Keds, Sweatshirts, Hoodies and More...
+            </p>
+            <button
+              class="bg-red-500 px-3 w-[110px] mt-5 text-white font-bold py-2 animate__animated animate__fadeInDown animate__delay-2s">Shop
+              Now
+          </div>
+          </button>
+
+        </div>
+        <div class="lg:w-1/2 h-full sm:w-full">
+          <!-- <div class="numbertext">1 / 3</div> -->
+          <img class="h-full object-cover" src="https://cartzilla.createx.studio/img/home/hero-slider/02.jpg">
+        </div>
+      </div>
+      <div class="text hidden">CaptionTwo</div>
+    </div>
+
+    <div class="mySlides fade bg-[#3aafd2] h-full ">
+      <div class="flex w-full h-full flex-col-reverse sm:flex-row ">
+        <div class="lg:w-1/2 flex items-center sm:w-full lg:h-full sm:h-auto">
+
+          <div class="w-full lg:ml-[100px] ml-5 lg:my-auto pt-[60px] pb-10 lg:pt-0 lg:pb-0 text-center  lg:text-left">
+            <h2 class="text-white font-light lg:text-[35px] sm:text-[15px] animate__animated animate__fadeInDown">Has
+              just arrived.</h2>
+            <h1 class="text-white text-bold lg:text-[50px] text-[20px] animate__animated animate__fadeInUp">Huge Summer
+              Collection</h1>
+            <p
+              class="text-white lg:text-[15px] text-[14px] opacity-80 animate__animated animate__fadeInDown animate__delay-1s">
+              Swinware, Tops, Shorts, Sunglasses and Mush
+              More...</p>
+            <button
+              class="bg-red-500 px-3 w-[110px] mt-5 text-white font-bold py-2 animate__animated animate__fadeInDown animate__delay-2s">Shop
+              Now
+          </div>
+          </button>
+
+        </div>
+        <div class="lg:w-1/2 h-full sm:w-full">
+
+          <img class="h-full object-cover" src="https://cartzilla.createx.studio/img/home/hero-slider/01.jpg">
+        </div>
+      </div>
+      <div class="text hidden">CaptionTwo</div>
+    </div>
+
+
+
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+  <!-- lg:h-screen sm:h-auto md:h-auto -->
+  <!-- https://cartzilla.createx.studio/img/home/categories/cat-lg02.jpg -->
+  <!-- https://cartzilla.createx.studio/img/shop/catalog/26.jpg -->
+  <!-- https://cartzilla.createx.studio/img/shop/catalog/09.jpg -->
+  <!-- #f6f8fb -->
+
+  <section class="max-w-[1500px] mx-auto lg:p-5">
+
+    <div class="flex flex-wrap  w-full h-full lg:py-[50px] py-5 px-2">
+      <div class=" lg:w-2/5  w-full h-full">
+
+        <div class="flex flex-col w-full h-full ">
+          <div class="bg-[#f6f8fb] w-full lg:h-[200px] h-[160px] flex justify-between px-10 py-10 ">
+            <div>
+              <p class="text-[30px] font-bold ">For Women</p>
+              <p class="text-[#fe696a]">shop for women ></p>
+            </div>
+            <div>
+              <button class="w-[40px] h-[40px] rounded-full border-2 opacity-70">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="w-[40px] h-[40px] rounded-full border-2 opacity-70">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="hidden lg:block bg-blue-600 w-full h-full">
+            <img class="h-full object-cover" src="https://cartzilla.createx.studio/img/home/categories/cat-lg02.jpg"
+              alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:w-3/5 w-full  flex flex-col gap-x-2 gap-y-2">
+
+        <div class="itemSlides w-full h-1/2">
+          <div class="w-full h-full grid lg:grid-cols-3 grid-cols-2 gap-2">
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/09.jpg" alt="">
+                <p class="text-[14px] opacity-70">cosmatic</p>
+                <p class="text-[17px] font-bold">Metal Lipstick</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/26.jpg" alt="">
+                <p class="text-[14px] opacity-70">shoe</p>
+                <p class="text-[17px] font-bold">Sneaker</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$9.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200 lg:block md:hidden hidden">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/09.jpg" alt="">
+                <p class="text-[15px] opacity-70">Accessories</p>
+                <p class="text-[18px] font-bold">Sun Glass</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$8.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+          <div class="w-full h-full grid lg:grid-cols-3 grid-cols-2 gap-2">
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/27.jpg" alt="">
+                <p class="text-[15px] opacity-70">cosmatic</p>
+                <p class="text-[18px] font-bold">Metal Lipstick(Crimson)</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/29.jpg" alt="">
+                <p class="text-[15px] opacity-70">cosmatic</p>
+                <p class="text-[18px] font-bold">Shoe Pow</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200 lg:block md:hidden hidden">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/30.jpg" alt="">
+                <p class="text-[15px] opacity-70">cosmatic</p>
+                <p class="text-[18px] font-bold">Metal Lipstick(Crimson)</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-[1500px] mx-auto lg:p-5">
+
+    <div class="flex flex-wrap w-full h-full lg:py-[50px] py-5 px-2">
+
+      <div class=" lg:w-2/5 lg:hidden block w-full h-full">
+
+        <div class="flex flex-col w-full h-full ">
+          <div class="bg-[#f6f8fb] w-full lg:h-[200px] h-[160px] flex justify-between px-10 py-10 ">
+            <div>
+              <p class="text-[30px] font-bold ">For Men</p>
+              <p class="text-[#fe696a]">shop for men ></p>
+            </div>
+            <div>
+              <button class="w-[40px] h-[40px] rounded-full border-2 opacity-70">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="w-[40px] h-[40px] rounded-full border-2 opacity-70">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="hidden lg:block bg-blue-600 w-full h-full">
+            <img class="h-full object-cover" src="https://cartzilla.createx.studio/img/home/categories/cat-lg01.jpg"
+              alt="">
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-3/5 w-full  flex flex-col gap-x-2 gap-y-2">
+
+        <div class="itemSlides w-full h-1/2">
+          <div class="w-full h-full grid lg:grid-cols-3 grid-cols-2 gap-2">
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/32.jpg" alt="">
+                <p class="text-[14px] opacity-70">cosmatic</p>
+                <p class="text-[17px] font-bold">Metal Lipstick</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/33.jpg" alt="">
+                <p class="text-[14px] opacity-70">shoe</p>
+                <p class="text-[17px] font-bold">Sneaker</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$9.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200 lg:block md:hidden hidden">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/38.jpg" alt="">
+                <p class="text-[15px] opacity-70">Accessories</p>
+                <p class="text-[18px] font-bold">Sun Glass</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$8.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+          <div class="w-full h-full grid lg:grid-cols-3 grid-cols-2 gap-2">
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/37.jpg" alt="">
+                <p class="text-[15px] opacity-70">cosmatic</p>
+                <p class="text-[18px] font-bold">Metal Lipstick(Crimson)</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/36.jpg" alt="">
+                <p class="text-[15px] opacity-70">cosmatic</p>
+                <p class="text-[18px] font-bold">Shoe Pow</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="relative h-full p-2 shadow-sm shadow-slate-200 lg:block md:hidden hidden">
+              <i class="fa-regular fa-heart opacity-70 absolute right-5 top-5 text-[23px] hover:text-[#fe696a]"></i>
+              <div>
+                <img class="" src="https://cartzilla.createx.studio/img/shop/catalog/39.jpg" alt="">
+                <p class="text-[15px] opacity-70">cosmatic</p>
+                <p class="text-[18px] font-bold">Metal Lipstick(Crimson)</p>
+                <div class="flex justify-between">
+                  <p class="text-[16px] font-bold opacity-70">$12.55</p>
+                  <div class="opacity-80 text-[#fe696a]">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      <div class=" lg:w-2/5 lg:block hidden  w-full h-full">
+
+        <div class="flex flex-col w-full h-full ">
+          <div class="bg-[#f6f8fb] w-full lg:h-[200px] h-[160px] flex justify-between px-10 py-10 ">
+            <div>
+              <p class="text-[30px] font-bold ">For Men</p>
+              <p class="text-[#fe696a]">shop for men ></p>
+            </div>
+            <div>
+              <button class="w-[40px] h-[40px] rounded-full border-2 opacity-70">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="w-[40px] h-[40px] rounded-full border-2 opacity-70">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="hidden lg:block bg-blue-600 w-full h-full">
+            <img class="h-full object-cover" src="https://cartzilla.createx.studio/img/home/categories/cat-lg01.jpg"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="max-w-[1500px] mx-atuo">
+    <div class="w-full p-3">
+      <h1 class="w-full text-center text-[30px] py-3 font-bold opacity-80">shop by brand</h1>
+      <div class="w-full flex flex-wrap">
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/01.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/02.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/03.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/04.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/05.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/06.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/07.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/08.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/09.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/10.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/11.png" alt="">
+        </div>
+        <div
+          class="text-center max-h-[200px] flex justify-center shadow-sm shadow-slate-100 item-center p-10 text-white w-1/2 lg:w-1/4 md:w-1/3 sm:w-1/2">
+          <img class="max-w-[140px]" src="https://cartzilla.createx.studio/img/shop/brands/12.png" alt="">
+        </div>
+
+      </div>
+  </section>
+
+  <section class="max-w-[1500px] mx-auto p-5">
+
+    <div class="w-full flex flex-wrap ">
+      <div class="lg:w-1/3 md:w-1/2 w-full">
+        <h1 class="font-bold text-[18px]">Bestseller</h1>
+        <div class="w-full py-2 flex flex-col">
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/01.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Women Colorblock sneakers</p>
+              <p class="font-light opacity-75">$12.33</p>
+            </div>
+          </div>
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/02.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Jean City Backpack</p>
+              <p class="font-light opacity-75">$70.33</p>
+            </div>
+          </div>
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/03.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Sun Hat</p>
+              <p class="font-light opacity-75">$15.33</p>
+            </div>
+          </div>
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/04.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Cotton T-shirt</p>
+              <p class="font-light opacity-75">$12.33</p>
+            </div>
+          </div>
+
+          <div class="w-full h-[60px] items-center  flex">
+            <p class="text-red-600 ">View More ></p>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="lg:w-1/3 md:w-1/2 w-full">
+        <h1 class="font-bold text-[18px]">New Arrival</h1>
+        <div class="w-full py-2 flex flex-col">
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/05.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Remax headphone</p>
+              <p class="font-light opacity-75">$160.99</p>
+            </div>
+          </div>
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/06.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Microphone</p>
+              <p class="font-light opacity-75">$12.33</p>
+            </div>
+          </div>
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/07.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Galaxy 12</p>
+              <p class="font-light opacity-75">$400.33</p>
+            </div>
+          </div>
+          <div class="w-full max-h-[100x] p-3 flex gap-3 border-b-[1px]">
+            <img class="max-h-[60px]" src="https://cartzilla.createx.studio/img/shop/cart/widget/08.jpg" alt="">
+            <div class="">
+              <p class="font-bold opacity-90 text-[15px]">Apple tv</p>
+              <p class="font-light opacity-75">$150.33</p>
+            </div>
+          </div>
+
+          <div class="w-full h-[60px] items-center  flex">
+            <p class="text-red-600 ">View More ></p>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="w-full lg:w-1/3 hidden lg:block">
+        <img src="https://cartzilla.createx.studio/img/home/banners/v-banner.jpg" alt="">
+      </div>
+    </div>
+
+
+  </section>
+  <section class="max-w-[1500px] mx-auto">
+    <div class="w-full flex flex-wrap">
+      <div class="lg:w-1/2 md:1/2 w-full h-[30vh] bg-red-100 flex flex-col justify-center items-center">
+        <i class="text-[50px] text-blue-600 fa-solid fa-blog "></i>
+        <h1 class="text-[25px] font-bold text-red-500">Read the Blog</h1>
+        <p class="opacity-70">#Latest store, fashion news and trend</p>
+      </div>
+      <div class="lg:w-1/2 md:1/2 w-full h-[30vh] bg-green-50 flex flex-col justify-center items-center">
+        <i class="text-[50px] text-red-600 fa-brands fa-instagram"></i>
+        <h1 class="text-[25px] font-bold text-red-500">Follow on Instagram</h1>
+        <p class="opacity-70">#shop with Shopy</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-[1500px] mx-auto p-5 bg-[#374450]">
+
+    <div class=" w-full flex flex-wrap">
+      <div class="sm:w-full md:w-1/2 lg:w-1/3 w-full ">
+        <h1 class="text-white text-[18px] font-bold py-4 ">Shop departments</h1>
+        <ul class="text-white ">
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Sneakers & Athletic</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Athletic Apparel</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Sandals</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Jeans</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Shirts & Tops</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Shorts</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">T-shirts</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Swinware</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Clogs & Mules</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Bags & Wallets</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Accessorises</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Sunglasses & Eyewear</li>
+          <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Watches</li>
+
+        </ul>
+      </div>
+      <div class="sm:w-full md:w-1/2 lg:w-1/3 w-full flex flex-col">
+        <div>
+          <h1 class="text-white text-[18px] font-bold py-4 ">Account & shipping info</h1>
+          <ul class="text-white ">
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Your account </li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">shipping rate & policies</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Refunds & replacements</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Order tracking</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Delivery info</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Texs & Fees</li>
+
+          </ul>
+        </div>
+        <div>
+          <h1 class="text-white text-[18px] font-bold py-4 ">Account & shipping info</h1>
+          <ul class="text-white ">
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Your account </li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">shipping rate & policies</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Refunds & replacements</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Order tracking</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Delivery info</li>
+            <li class=" opacity-80 hover:opacity-100 text-[14px] py-1">Texs & Fees</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="sm:w-full md:w-1/2 lg:w-1/3 w-full ">
+        <h1 class="text-white text-[18px] font-bold py-4 ">Stay informed</h1>
+        <div>
+          <form action="">
+            <!-- component -->
+            
+              <div class="w-full ">
+                <div class="flex">
+                  <div
+                    class="flex w-10 items-center justify-center rounded-tl-lg rounded-bl-lg bg-white p-3">
+                    <i class="fa-regular fa-envelope opacity-75 text-[20px]"></i>
+                  </div>
+                  <input type="text" class="w-full bg-white pl-2 text-base font-semibold outline-0" placeholder=""
+                    id="" />
+                  <input type="button" value="Subscribe!"
+                    class="bg-red-400 p-2 rounded-tr-lg rounded-br-lg text-white font-semibold hover:bg-blue-600 transition-colors" />
+                </div>
+              </div>
+              <p class="text-[12px] opacity-70 text-white">*Subscribe to our newsletter to receive early discount offers, updates and new products info.</p>
+          </form>
+        <h1 class="text-white text-[18px] font-bold py-4 ">Download our app</h1>
+        <div class="flex w-full gap-2">
+          <div class="max-w-[210px] flex h-[70px] rounded-md px-5 justify-around gap-2 py-2 bg-black">
+
+            <i class=" text-[50px] fa-brands fa-apple text-white"></i>
+            <div class="flex flex-col">
+              <p class="text-[13px] text-white opacity-70">Download on </p>
+              <p class="font-bold text-white">App Store</p>
+    
+
+            </div>
+          </div>
+          <div class="max-w-[210px] flex h-[70px] rounded-md px-5 justify-around gap-2 py-2 bg-black">
+
+            <img class="w-[40px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Google_Play_2012-2016_icon.svg/750px-Google_Play_2012-2016_icon.svg.png" alt="">
+            <div class="flex flex-col">
+              <p class="text-[13px] text-white opacity-70">Download on </p>
+              <p class="font-bold text-white">App Store</p>
+    
+
+            </div>
+          </div>
+
+          </div>
+        </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="max-w-[1500px] mx-auto p-5 bg-[#2b3445]">
+    <div>
+      <div class="flex flex-wrap border-b-[1px] border-slate-500">
+        <div class="flex lg:w-1/4 md:w-1/2 w-full  py-5 px-3  justify-start gap-5">
+          <i class="fa-solid fa-rocket text-red-500 text-[40px] "></i>
+          <div class="flex flex-col ">
+            <h1 class="text-white font-bold text-[18px] ">Fast and Free Delivery</h1>
+            <p class="text-white opacity-70 text-[14px]">Free delivery for all orders over $200</p>
+          </div>
+        </div>
+        <div class="flex lg:w-1/4 md:w-1/2 w-full  py-5 px-3 justify-start gap-5">
+          <i class="fa-solid fa-money-bill-transfer text-red-500 text-[40px] "></i>
+          <div class="flex flex-col ">
+            <h1 class="text-white font-bold text-[18px] ">Money back guarantee</h1>
+            <p class="text-white opacity-70 text-[14px]">We return money withing 30 days</p>
+          </div>
+        </div>
+        <div class="flex lg:w-1/4 md:w-1/2 w-full  py-5 px-3 justify-start gap-5">
+          <i class="fa-solid fa-headset text-red-500 text-[40px] "></i>       
+           <div class="flex flex-col ">
+            <h1 class="text-white font-bold text-[18px] ">24/7 Customer suport</h1>
+            <p class="text-white opacity-70 text-[14px]">Friendly 24/7 customer support</p>
+          </div>
+        </div>
+        <div class="flex lg:w-1/4 md:w-1/2 w-full  py-5 px-3 justify-start gap-5">
+          <i class="fa-solid fa-credit-card text-red-500 text-[40px] "></i>
+          <div class="flex flex-col ">
+            <h1 class="text-white font-bold text-[18px] ">Secure Online Payment</h1>
+            <p class="text-white opacity-70 text-[14px]">We process SSL / Secure Certification</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="flex  flex-wrap py-5">
+        <div class="lg:w-1/2 w-full">
+        <div class="flex gap-4 lg:justify-end justify-center">
+          <img class="h-[30px] " src="https://cartzilla.createx.studio/img/footer-logo-light.png" alt="">
+          <button class=" flex gap-3 py-2 px-2 border-[1px] border-slate-300 rounded-md text-white text-[14px]">
+            
+            <img class="h-[20px]" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png?20151118161041" alt=""> <p>Eng /$ <i class="fa-solid fa-caret-down"></i></p> </button>
+  
+          </div>
+          <ul class="flex gap-5 text-white opacity-70 text-[14px] mt-5 lg:justify-end justify-center">
+            <li>Outlets</li>
+            <li>Affiliates</li>
+            <li>Support</li>
+            <li>Privacy</li>
+            <li>Term of Use</li>
+          </ul>
+        </div>
+  
+        <div class="flex flex-col gap-3 lg:w-1/2 w-full ">
+          <div class="flex gap-3 lg:justify-end justify-center lg:mt-0 mt-5">
+            <i class="fa-brands fa-facebook py-2 px-2 text-[20px] bg-slate-100 rounded-md"></i>
+            <i class="fa-brands fa-discord py-2 px-2 text-[20px] bg-slate-100 rounded-md"></i>
+            <i class="fa-brands fa-youtube py-2 px-2 text-[20px] bg-slate-100 rounded-md"></i>
+            <i class="fa-brands fa-instagram py-2 px-2 text-[20px] bg-slate-100 rounded-md"></i>
+          </div>
+          <div class="flex lg:justify-end justify-center ">
+            <img class="h-[30px]" src="https://cartzilla.createx.studio/img/cards-alt.png" alt="">
+          </div>
+      </div>
+    </div>
+    <p class="flex text-slate-300 text-[12px] lg:justify-end justify-center">@All right reserved. Developed by thurahex (clone to createx Studio).</p>  
+
+    
+  </section>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
